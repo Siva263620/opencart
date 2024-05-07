@@ -7,11 +7,10 @@
 	  <parameter name="browser" value="chrome"></parameter>
 	  <parameter name="os" value="windows"></parameter>
     <classes>
-       <!--
-         <class name="TestCases.TC_002_LoginTest"/> -->
-       <class name="TestCases.TC_001_AccountRegistrationTest"/>  
-     
-       <class name="TestCases.TC_003_LoginDDT"/>
+       
+		 		<class name="TestCases.TC_001_AccountRegistrationTest"/>        
+		         <class name="TestCases.TC_002_LoginTest"/> 
+		       	<class name="TestCases.TC_003_LoginDDT"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
